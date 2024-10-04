@@ -1,6 +1,6 @@
 
 import java.util.*;
-class program_switchCase_02 {
+class SwitchCase3 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         String rank;
