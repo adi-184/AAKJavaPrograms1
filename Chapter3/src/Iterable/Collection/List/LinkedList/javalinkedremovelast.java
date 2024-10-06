@@ -1,5 +1,4 @@
-package LinkedList;
-
+package Iterable.Collection.List.LinkedList;
 import java.util.LinkedList;
 
 public class javalinkedremovelast {
