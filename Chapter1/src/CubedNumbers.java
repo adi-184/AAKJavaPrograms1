@@ -1,7 +1,5 @@
-package chapterno1;
 
 public class CubedNumbers {
-
 	public static void main(String[] args) {
 		System.out.println("Numbers between 1 and 100 whose cubes are between 1 and 100:");
 

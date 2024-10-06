@@ -1,5 +1,3 @@
-package chapterno1;
-//Class representing a Student
 class Student {
  // Instance variables
  private String name;
@@ -22,7 +20,7 @@ public class Constructor {
 
 	public static void main(String[] args) {
 		// Create an instance of the Student class
-        Student student1 = new Student("Anisha", 20);
+        Student student1 = new Student("Aditya", 20);
 
         // Display the details of the student
         student1.displayDetails();

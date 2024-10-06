@@ -13,7 +13,7 @@ class Rectangle {
  // Constructor with one parameter (for a square)
  public Rectangle(double side) {
      this.length = side;
-     this.width = side; // Both sides are equal for a square
+     this.width = side; 
  }
 //Method to calculate area
  public double calculateArea() {
@@ -32,13 +32,13 @@ public class ConstructorOverloading {
 
 	public static void main(String[] args) {
 		// Create instances of the Rectangle class
-        Rectangle rectangle1 = new Rectangle(10.0, 5.0); // Rectangle
-        Rectangle rectangle2 = new Rectangle(4.0); // Square
+        Rectangle rectangle1 = new Rectangle(10.0, 5.0); 
+        Rectangle rectangle2 = new Rectangle(4.0); 
 
-        // Display details of both rectangles
+        
         System.out.println("Rectangle 1 Details:");
         rectangle1.displayDetails();
-        System.out.println(); // Print a blank line
+        System.out.println(); 
 
         System.out.println("Rectangle 2 Details (Square):");
         rectangle2.displayDetails();
